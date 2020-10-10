@@ -1,0 +1,39 @@
+#include <iostream>
+
+int main() {
+  
+  int weight = 0;
+  int planet = 0;
+
+  std::cout << "What is your weight? ";
+  std::cin >> weight;
+
+  std::cout << "What planet would you like to fight on? ";
+  std::cin >> planet;
+  
+  switch(planet) {
+    case 1:
+    std::cout << weight * 0.38;
+    break;
+    case 2:
+    std::cout << weight * 0.91;
+    break;
+    case 3:
+    std::cout << weight * 0.38;
+    break;
+    case 4:
+    std::cout << weight * 2.34;
+    break;
+    case 5:
+    std::cout << weight * 1.06;
+    break;
+    case 6:
+    std::cout << weight * 0.92;
+    break;
+    case 7:
+    std::cout << weight * 1.19;
+    break;
+  }
+  std::cout << "\n";
+  return 0;
+}
